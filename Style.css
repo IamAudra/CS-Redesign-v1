@@ -1,4 +1,4 @@
-#Container1 {
+#container1 {
 display: flex;
 background-color: rgba(109, 150, 32, 0.822);
 border: 1px solid purple;
@@ -6,7 +6,7 @@ padding: 20px;
 justify-content: center;
 margin: 5px;
 }
-#Container1 {
+#container1 {
   display: flex 2;
 margin-left: 300px;
 margin-top: -125px;
@@ -19,7 +19,7 @@ width: 75%;
 
 .inner {
   display: inline;
-  width: 400px;
+  width: 300px;
   height: 120px;
   border: 1px solid rgb(11, 17, 11);
   margin: 5px;
@@ -39,22 +39,27 @@ text-decoration: none;
 color: white;
 
 }
-Flex2#Toon {
+Flex2#toon {
 width: 25px;
 margin-left: 5px;
 }
 
  img#Lg2 {
   z-index: 0;
-  margin-top: -675px;
+  margin-top: 75px;
   align-items:  center;
   margin-left: 450px;
 }
 
 .responsive {
 width: 100%;
-max-width: 400px;
+max-width: 540px;
 height: auto;
 
+}
+
+body {
+background-image:
+images/Nesa.jpg
 
 }

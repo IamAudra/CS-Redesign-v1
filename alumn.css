@@ -1,49 +1,48 @@
-.container{
-    background: darkviolet;
-    padding: 5px;
-    /*margin: 20px;*/
-
-}
-.blocks{
-    background: darkgreen;
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    flex-direction:column-reverse;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-.blocks img{
-    border-right: 20px;
-    display: flex;
-    float-displace: auto;
-    margin: 20px;
-    width: 10rem;
-    height: 10rem;
-}
-.academy{
-    cursor:pointer;
-    display:flex;
-    justify-content: flex-end;
-
-}
 
 .alumni{
+
+display: flex;
+
+
+
+}
+
+.alumni .blocks {
+
     margin-bottom: 100px;
+
     margin-top: 500px;
-    background: purple;
-    border: solid rebeccapurple;
-    border-radius: 2%;
+
+    background: rebeccapurple;
+
+    border: solid beige;
+
+    border-radius:2%;
+
     margin-left: 10px;
+
     display: flex;
+
     justify-content: space-around;
+
     align-items: stretch;
+
     padding: 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 10px 10px 10px rgba(100, 100, 100, 5);
+
     font-family: Arial, sans-serif;
+
     font-size: 0.7rem;
 }
+
+.alumni footer{
+
+    display: flex;
+
+
+}
+
 .alumni img{
     margin-top: 25px;
     width: 5rem;
@@ -55,32 +54,42 @@
     flex-direction: column;
     box-shadow: 5px 5px 5px rgba(100, 100, 100, 2);
 }
+
 .sub-alum img{
     width: 3rem;
     height: 3rem;
     background: white;
     border-radius: 20%;
 }
+
 .sub-alum{
     padding: 10px;
 }
+
 .alum{
     background: beige;
+
     padding: 30px;
+
     border: black;
+
     border-radius:50%;
+
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
     margin: 2px;
+
     justify-content: space-evenly;
+
     align-items: flex-start;
+
     display: flex;
+
     flex-wrap: wrap-reverse;
+
     cursor:pointer;
 
 
-}
-.context-menu{
-    cursor: context-menu;
 
 }
 
@@ -89,3 +98,34 @@
 }
 
 /*rgba(109, 150, 32, 0.822)*/
+
+/*alumni stories text edits*/
+#word{
+    font-size: 3rem;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+
+}
+#word strong{
+    font-size: 30rem;
+    font-family: Papyrus, sans-serif, italic;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+#alumniHead{
+
+    padding: 10px;
+    margin: 10px 10px 10px;
+    font-family: Helvetica, sans-serif;
+
+}
+/* linked to msimbostudents*/
+.intro{
+
+    padding: 10px;
+    margin: 10px 10px 10px;
+    font-family: Helvetica, sans-serif;
+
+}

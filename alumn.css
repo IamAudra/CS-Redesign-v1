@@ -31,6 +31,7 @@
 
 .alumni{
     margin-bottom: 100px;
+    margin-top: 500px;
     background: purple;
     border: solid rebeccapurple;
     border-radius: 2%;
@@ -52,11 +53,11 @@
     padding: 2px;
     border-radius: 50%;
     flex-direction: column;
-    box-shadow: 5px 5px 20px rgba(0, 0, 50, 0.3);
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, 2);
 }
 .sub-alum img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     background: white;
     border-radius: 20%;
 }
@@ -87,3 +88,4 @@
 
 }
 
+/*rgba(109, 150, 32, 0.822)*/

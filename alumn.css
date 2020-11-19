@@ -1,7 +1,11 @@
 
 .alumni{
 
-display: flex;
+display: inline flex;
+
+    justify-content: space-around;
+
+    align-items: stretch;
 
 
 
@@ -9,7 +13,7 @@ display: flex;
 
 .alumni .blocks {
 
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 
     margin-top: 500px;
 
@@ -36,9 +40,30 @@ display: flex;
     font-size: 0.7rem;
 }
 
-.alumni footer{
+.alumni .footer{
 
     display: flex;
+
+    background: rebeccapurple;
+
+    margin-bottom: 100px;
+
+    /*margin-top: 0px;*/
+
+    justify-content: space-around;
+
+    /*align-items: stretch;*/
+
+    padding: 5px;
+
+    border-radius: 2%;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 0.7rem;
+
+
+    box-shadow: 10px 10px 10px rgba(100, 100, 100, 5);
 
 
 }
@@ -89,8 +114,6 @@ display: flex;
 
     cursor:pointer;
 
-
-
 }
 
 .abbr{
@@ -100,13 +123,18 @@ display: flex;
 /*rgba(109, 150, 32, 0.822)*/
 
 /*alumni stories text edits*/
+
 #word{
+
     font-size: 3rem;
     background: rebeccapurple;
     display: flex;
     justify-content: space-around;
 
 }
+
+/*Linked to alumni stories*/
+
 #word strong{
     font-size: 30rem;
     font-family: Papyrus, sans-serif, italic;
@@ -121,7 +149,9 @@ display: flex;
     font-family: Helvetica, sans-serif;
 
 }
-/* linked to msimbostudents*/
+
+/* linked to msimbostudents */
+
 .intro{
 
     padding: 10px;

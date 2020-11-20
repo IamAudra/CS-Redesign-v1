@@ -1,11 +1,13 @@
+
 /*the large box*/
+
 .alumni{
 
     display: inline flex;
 
     justify-content: space-around;
 
-    /*align-items: stretch;*/
+    align-items: stretch;
 
 
 }
@@ -120,9 +122,12 @@
 
 .sub-alum{
 
-    padding: 10px;
+    /*padding: 10px;*/
+
+    text-decoration: none;
 
 }
+
 
 /*Alumni pictures*/
 
@@ -151,6 +156,7 @@
     cursor:pointer;
 
 }
+
 
 /*content pop up bubble message displaying alumni story*/
 
@@ -245,6 +251,7 @@
 
     color: rebeccapurple;
 }
+
 
 /* linked to the Msimbo students webpage */
 

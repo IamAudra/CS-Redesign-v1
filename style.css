@@ -2,15 +2,12 @@ body {
     background-color: gainsboro 
 }
 
-p { border: 2px solid rebeccapurple;
+p {border: 2px solid rebeccapurple;
     
 }
-
-
-h1 { text-align: center; 
+h1 {text-align: center; 
      text-shadow: 2px rebeccapurple;
-     font-style: italic;
-
+    
 }
 
 ul {
@@ -18,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
   }
-li { display: inline-block;}
+li {display: inline-block;}
 ul {
     border: 1px solid rebeccapurple;
     background-color: gainsboro;
@@ -27,11 +24,9 @@ ul {
   li a {
     color: black;
   }
-  footer { text-align: center;}
+  footer {text-align: center;}
 
   div {
       display: inline-block;
   }
-  div.a {
-    text-indent: 50px;
-  }
+

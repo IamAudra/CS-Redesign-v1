@@ -34,11 +34,16 @@ ul {
 
 .alumni{
 
-    display: inline flex;
+    display: inline-block;
 
     justify-content: space-around;
 
     align-items: stretch;
+
+    margin-outside: 10px;
+
+    width: 100%;
+
 
 
 }
@@ -46,7 +51,7 @@ ul {
 
 .alumni .blocks {
 
-    margin-top: 200px;
+    /*margin-top: 200px;*/
 
     background: rebeccapurple;
 
@@ -67,6 +72,7 @@ ul {
     font-family: Arial, sans-serif;
 
     font-size: 0.7rem;
+
 
 }
 
@@ -153,9 +159,9 @@ ul {
 
 .sub-alum{
 
-    /*padding: 10px;*/
+    padding: 10px;
 
-    text-decoration: none;
+    text-justify: auto;
 
 }
 

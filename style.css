@@ -1,17 +1,17 @@
 #container1 {
 display: flex;
 background-color: rgba(109, 150, 32, 0.822);
-border: 1px solid purple;
+
 padding: 20px;
 justify-content: center;
-margin: 5px;
+margin: 2px;
 }
 #container1 {
   display: flex 2;
 margin-left: 300px;
-margin-top: -125px;
-height: 80px;
-width: 75%;
+margin-top: -104px;
+height: 60px;
+width: 90%;
 
 
 
@@ -51,27 +51,71 @@ margin-left: 5px;
   z-index: 0;
   margin-top: 75px;
   align-items:  center;
-  margin-left: 450px;
+  margin-left: 620px;
+  margin-top: 75px;
+
 }
 
-.responsive {
-width: 100%;
+Lg2.responsive {
+width: 65%;
 max-width: 540px;
 height: auto;
 
 }
 
-#Nessa {
+#nessa {
 background-image:
-url ('images/Nesa.jpg');
+url ('images/nesa.jpg');
 Opacity: .6;
-margin-top:-623px;
+margin-top:-395px;
+width: 1520px;
+z-index:
 }
 #foot {
 
 background-color: rebeccapurple;
 color: white;
 border: 1px solid blueviolet;
+text-align: center;
+margin-top: 200px;
+height: 50px;
+width: 115%;
+z-index: inherit;
+box-shadow: 10px 10px 50px grey;
+}
+
+#logo_text {
+
+z-index: 1
+border: 0px;
+box-shadow: 10px 10px 40px grey inset;
+width: 1522px;
+height: 900px;
 
 
+}
+
+#ulem_logo {
+  margin-top: -14px;
+  height: 100px;
+  width: 315px;
+  z-index: 559;
+  
+
+
+}
+#logo_text p {
+
+font-family: Dekko, sans-serif;
+
+font-size: 35px;
+text-align: center;
+font-color: white;
+z-index: 9998;
+margin-top: -150px;
+line-height: 2.5;
+
+}
+#logo_text {
+  height: 465px;
 }

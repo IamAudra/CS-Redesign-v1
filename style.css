@@ -2,13 +2,13 @@ body {
     background-color: gainsboro 
 }
 
-p { border: 2px solid rebeccapurple;
+p { border: 2px solid red;
     
 }
 
 
 h1 { text-align: center; 
-     text-shadow: 2px rebeccapurple;
+     text-shadow: 2px red;
      font-style: italic;
 
 }
@@ -20,7 +20,7 @@ ul {
   }
 li { display: inline-block;}
 ul {
-    border: 1px solid rebeccapurple;
+    border: 1px solid red;
     background-color: gainsboro;
   }
   
